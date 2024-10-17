@@ -2,8 +2,17 @@ import kotlin.math.abs
 import kotlin.math.max
 
 fun main() {
-    val k = readln().toInt()
-    val x = readln().toInt()
-    val y = readln().toInt()
-    println(max(max(k - max(x, y), 2 - abs(x - y)), 0))
+    var s1 = "foo"
+
+    var s2 = "bar"
+
+    var s3 = "buzz"
+
+    s3 = s1
+
+    s1 = s2
+
+    s2 = s3
+
+    println(s1)
 }
